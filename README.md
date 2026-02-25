@@ -9,7 +9,7 @@ Below is a brief overview of the most relevant projects and the main competencie
 ## 🚀 Selected Projects
 
 ### 🛰️ ADCS for 6U Earth Observation CubeSat  
-🔗 [Project Folder](https://drive.google.com/drive/folders/1Vs-G8FDRAb_dwynPyesy3QcJ4JA4Pci9?usp=sharing)  
+📂 [Project Folder](./Master%20Projects/ADCS%206U%20Earth%20Observation%20CubeSat)  
 **Focus:** ADCS architecture design and satellite stabilization within mission requirements.  
 - Attitude determination and control strategy  
 - Mission-driven system sizing  
@@ -18,7 +18,7 @@ Below is a brief overview of the most relevant projects and the main competencie
 ---
 
 ### 🌍 Interplanetary Trajectory Design & Planetary Perturbations  
-🔗 [Project Folder](https://drive.google.com/drive/folders/1Wes74RoVncYdLN1ePxEZeVFizSa3USIs?usp=sharing)  
+📂 [Project Folder](./Master%20Projects/Interplanetary%20trajectories%20and%20...)  
 **Focus:** Optimization techniques applied to mission design.  
 - Trajectory optimization using `fmincon` and genetic algorithms  
 - Modeling of J2 perturbation  
@@ -27,7 +27,7 @@ Below is a brief overview of the most relevant projects and the main competencie
 ---
 
 ### 🔥 Preliminary Sizing of a Bipropellant LRE  
-🔗 [Project Folder](https://drive.google.com/drive/folders/1bqqtNdnyv1Rt2laPEypei3kBWt2gI8D3?usp=sharing)  
+📂 [Project Folder](./Master%20Projects/Preliminary%20sizing%20of%20a%20bipropell...)  
 **Focus:** Liquid Rocket Engine preliminary design and performance optimization.  
 - Blowdown pressurization modeling  
 - Combustion chamber sizing  
@@ -38,7 +38,7 @@ Below is a brief overview of the most relevant projects and the main competencie
 ---
 
 ### 🎯 Monte Carlo Simulation for SRM Uncertainty Analysis  
-🔗 [Project Folder](https://drive.google.com/drive/folders/1bqqtNdnyv1Rt2laPEypei3kBWt2gI8D3?usp=sharing)  
+📂 [Project Folder](./Master%20Projects/Monte%20Carlo%20method%20for%20uncert...)  
 **Focus:** Statistical uncertainty evaluation in Solid Rocket Motors.  
 - Monte Carlo simulation for burn time variability  
 - Nozzle impact assessment on performance  
@@ -47,7 +47,7 @@ Below is a brief overview of the most relevant projects and the main competencie
 ---
 
 ### ☀️ Reverse Engineering of the SOHO Mission  
-🔗 [Project Folder](https://drive.google.com/drive/folders/1bqqtNdnyv1Rt2laPEypei3kBWt2gI8D3?usp=sharing)  
+📂 [Project Folder](./Master%20Projects/SOHO%20reverse%20engineering)  
 **Focus:** High-level system engineering and trajectory reconstruction.  
 - Mission architecture analysis  
 - Subsystem identification  
@@ -56,14 +56,6 @@ Below is a brief overview of the most relevant projects and the main competencie
 
 ---
 
-## 🎓 Education
-
-**BSc in Aerospace Engineering**  
-📍 Politecnico di Milano  
-🗓️ 2020 – 2023  
-EQF Level: 6  
-
----
 
 ## 🛠️ Core Competencies Developed
 
@@ -76,4 +68,4 @@ EQF Level: 6
 
 ---
 
-📌 This repository serves as a technical portfolio showcasing analytical, modeling, and system-level design skills developed throughout my academic career.
+📌 This repository serves as a technical portfolio showcasing analytical, modelling, and system-level design skills developed throughout my academic career.
