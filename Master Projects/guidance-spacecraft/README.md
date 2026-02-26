@@ -11,31 +11,31 @@ This repository contains the MATLAB codebase and technical report developed for 
 The work is divided into three main assignments:
 
 ### 1. Periodic Orbits in the 3D CRTBP
-* **Objective**: Analyze periodic halo orbits in the 3D Earth-Moon Circular Restricted Three-Body Problem (CRTBP)[cite: 6, 22].
+* **Objective**: Analyze periodic halo orbits in the 3D Earth-Moon Circular Restricted Three-Body Problem (CRTBP).
 * **Key Implementations**: 
-  * High-accuracy calculation of the 5 Lagrange points and their respective Jacobi constants[cite: 11, 50].
-  * Development of a differential correction scheme using the State Transition Matrix (STM) to find periodic halo orbits[cite: 23, 144].
-  * Numerical continuation to compute families of halo orbits by gradually decreasing the Jacobi energy[cite: 25, 26].
+  * High-accuracy calculation of the 5 Lagrange points and their respective Jacobi constants.
+  * Development of a differential correction scheme using the State Transition Matrix (STM) to find periodic halo orbits.
+  * Numerical continuation to compute families of halo orbits by gradually decreasing the Jacobi energy.
 
 ### 2. Impulsive Guidance (Earth-Moon Transfer)
-* **Objective**: Design an optimal two-impulse Earth-Moon transfer to minimize Delta-V[cite: 270, 350].
+* **Objective**: Design an optimal two-impulse Earth-Moon transfer to minimize Delta-V.
 * **Key Implementations**:
-  * First guess solution generated using the 2D Planar Bicircular Restricted Four-Body Problem (PBRFBP)[cite: 309].
-  * Optimization using Simple Shooting (with and without analytical gradients)[cite: 278, 279, 280].
-  * Optimization using Multiple Shooting with 4 nodes, utilizing variational equations for the Jacobian[cite: 281].
-  * Real-world validation via full n-body propagation transformed into the Earth-centered inertial frame (ECLIPJ2000) using NASA SPICE kernels[cite: 282, 691].
+  * First guess solution generated using the 2D Planar Bicircular Restricted Four-Body Problem (PBRFBP).
+  * Optimization using Simple Shooting (with and without analytical gradients).
+  * Optimization using Multiple Shooting with 4 nodes, utilizing variational equations for the Jacobian.
+  * Real-world validation via full n-body propagation transformed into the Earth-centered inertial frame (ECLIPJ2000) using NASA SPICE kernels.
 
 ### 3. Continuous Guidance (Low-Thrust Orbit Raising)
-* [cite_start]**Objective**: Design an optimal low-thrust maneuver to raise a spacecraft orbit from 800 km to 1000 km[cite: 736, 737].
+* **Objective**: Design an optimal low-thrust maneuver to raise a spacecraft orbit from 800 km to 1000 km[cite: 736, 737].
 * **Key Implementations**:
   * [cite_start]Optimization of the trajectory to minimize the risk of impact in an environment with high spatial debris density[cite: 738, 740].
   * [cite_start]Application of the Pontryagin Maximum Principle (PMP) to define state dynamics, costate dynamics, and the zero-finding problem[cite: 748, 863, 876].
   * [cite_start]Numerical continuation to analyze and compare solutions with a reduced thrust level (from 3.000 N to 2.860 N)[cite: 758, 970].
 
 ## 🛠️ Tools and Technologies
-* [cite_start]**Language**: MATLAB [cite: 33, 120]
-* [cite_start]**Integrators**: `ode78` (high-order fixed-step solver for smooth dynamics) [cite: 150]
-* [cite_start]**Solvers**: `fzero`, `fmincon` (active-set), `fsolve` (Levenberg-Marquardt and trust-region-dogleg) [cite: 33, 384, 890, 894, 982]
+* **Language**: MATLAB
+* **Integrators**: `ode78` (high-order fixed-step solver for smooth dynamics)
+* **Solvers**: `fzero`, `fmincon` (active-set), `fsolve` (Levenberg-Marquardt and trust-region-dogleg)
 
 ## 📸 Results
 *(Note: Replace the placeholders below with actual paths to your images, e.g., `img/halo_orbits.png`)*
@@ -49,4 +49,3 @@ The work is divided into three main assignments:
 ## 👨‍💻 Author
 **Emanuele Gallo**
 * GitHub: [@galloemanuele](https://github.com/galloemanuele)
-* [cite_start]Student ID: 243222 [cite: 5]
