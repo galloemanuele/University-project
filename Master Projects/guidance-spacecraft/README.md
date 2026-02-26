@@ -26,11 +26,11 @@ The work is divided into three main assignments:
   * Real-world validation via full n-body propagation transformed into the Earth-centered inertial frame (ECLIPJ2000) using NASA SPICE kernels.
 
 ### 3. Continuous Guidance (Low-Thrust Orbit Raising)
-* **Objective**: Design an optimal low-thrust maneuver to raise a spacecraft orbit from 800 km to 1000 km[cite: 736, 737].
+* **Objective**: Design an optimal low-thrust maneuver to raise a spacecraft orbit from 800 km to 1000 km.
 * **Key Implementations**:
-  * [cite_start]Optimization of the trajectory to minimize the risk of impact in an environment with high spatial debris density[cite: 738, 740].
-  * [cite_start]Application of the Pontryagin Maximum Principle (PMP) to define state dynamics, costate dynamics, and the zero-finding problem[cite: 748, 863, 876].
-  * [cite_start]Numerical continuation to analyze and compare solutions with a reduced thrust level (from 3.000 N to 2.860 N)[cite: 758, 970].
+  * Optimization of the trajectory to minimize the risk of impact in an environment with high spatial debris density.
+  * Application of the Pontryagin Maximum Principle (PMP) to define state dynamics, costate dynamics, and the zero-finding problem.
+  * Numerical continuation to analyze and compare solutions with a reduced thrust level (from 3.000 N to 2.860 N).
 
 ## 🛠️ Tools and Technologies
 * **Language**: MATLAB
