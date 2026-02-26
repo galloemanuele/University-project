@@ -1,1 +1,45 @@
+# Spacecraft Guidance and Navigation - Assignment 1
 
+![MATLAB](https://img.shields.io/badge/MATLAB-Simulation-blue.svg)
+![Astrodynamics](https://img.shields.io/badge/Domain-Astrodynamics-orange.svg)
+![Optimization](https://img.shields.io/badge/Skill-Trajectory_Optimization-success.svg)
+
+[cite_start]This repository contains the MATLAB codebase and technical report developed for the "Spacecraft Guidance and Navigation" Assignment #1 at Politecnico di Milano[cite: 1, 2]. [cite_start]The project focuses on advanced trajectory design, differential correction, and optimal control techniques across different restricted n-body dynamical models[cite: 6, 282, 733].
+
+## 🚀 Overview
+
+The project is divided into three main operational frameworks:
+
+### 1. Periodic Orbits in the 3D CRTBP
+* [cite_start]**Objective**: Find and analyze periodic Halo orbits in the 3D Earth-Moon Circular Restricted Three-Body Problem (CRTBP)[cite: 6, 22].
+* **Methods**: 
+  * [cite_start]Calculation of the 5 Lagrange points with high accuracy[cite: 11].
+  * [cite_start]Implementation of a differential correction scheme utilizing the State Transition Matrix (STM) to enforce perpendicular plane crossings[cite: 23, 24].
+  * [cite_start]Numerical continuation to compute families of Halo orbits (ranging from Jacobi Constant C = 3.09 to C = 3.04)[cite: 22, 26].
+
+### 2. Impulsive Guidance (Earth-Moon Transfer)
+* [cite_start]**Objective**: Design an optimal two-impulse Earth-Moon transfer[cite: 270].
+* **Methods**:
+  * [cite_start]Initial propagation using the 2D Planar Bicircular Restricted Four-Body Problem (PBRFBP)[cite: 309].
+  * [cite_start]Trajectory optimization applying both Simple Shooting and Multiple Shooting (N = 4 nodes) methods to minimize Delta-V[cite: 278, 281].
+  * [cite_start]Real-world validation: Transformation to the Earth-centered inertial frame (ECLIPJ2000) and full N-body propagation using NASA SPICE kernels[cite: 282, 295, 311].
+
+### 3. Continuous Guidance (Low-Thrust Orbit Raising)
+* [cite_start]**Objective**: Design an optimal low-thrust maneuver to raise an orbit from 800 km to 1000 km while minimizing collision risk in a high-density spatial debris environment[cite: 736, 737, 738].
+* **Methods**:
+  * [cite_start]Application of the Pontryagin Maximum Principle (PMP) to formulate the optimal control problem[cite: 748, 863].
+  * [cite_start]Resolution of the Zero-Finding problem for the costates and final time using nonlinear root-finding[cite: 876, 877].
+  * [cite_start]Numerical continuation applied to evaluate the transfer efficiency under a reduced thrust scenario (from T_max = 3.000 N to 2.860 N)[cite: 758, 902, 987].
+
+## 🛠️ Tools and Algorithms
+* **Environment**: MATLAB
+* [cite_start]**Solvers & Integrators**: `ode78` (fixed-step for non-stiff dynamics), `fzero`, `fsolve` (Levenberg-Marquardt), `fmincon` (Active-set, Trust-region-dogleg)[cite: 33, 150, 384, 894, 982].
+
+## 📂 Repository Structure
+* `src/`: Contains all MATLAB scripts and functions for propagation, targeting, and optimization.
+* [cite_start]`docs/`: Includes the comprehensive technical report detailing the mathematical frameworks and results (`Gallo243222_Assign1_Report.pdf`)[cite: 5].
+* `img/`: (Recommended) Visualizations of Halo orbit families, N-body trajectories, and Hamiltonian evolutions.
+
+## 👨‍💻 Author
+[cite_start]**Emanuele Gallo** [cite: 5]
+* GitHub: [@galloemanuele](https://github.com/galloemanuele)
