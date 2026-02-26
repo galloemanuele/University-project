@@ -38,7 +38,6 @@ The work is divided into three main assignments:
 * **Solvers**: `fzero`, `fmincon` (active-set), `fsolve` (Levenberg-Marquardt and trust-region-dogleg)
 
 ## 📸 Results
-*(Note: Replace the placeholders below with actual paths to your images, e.g., `img/halo_orbits.png`)*
 * **Halo Orbits**: Successfully generated the family of orbits around L2.
   * `![Halo Orbits Family](path/to/your/image.png)`
 * **Earth-Moon Transfer**: N-body propagated trajectories matching the real Moon ephemerides.
