@@ -1,4 +1,4 @@
-# Spacecraft Guidance and Navigation - Assignment 1
+# Spacecraft Guidance and Navigation
 
 ![MATLAB](https://img.shields.io/badge/MATLAB-Simulation-blue.svg)
 ![Astrodynamics](https://img.shields.io/badge/Domain-Astrodynamics-orange.svg)
